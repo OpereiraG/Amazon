@@ -1,0 +1,15 @@
+Index: src/test/java/ChangeSettingsAmazon/Hi.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package ChangeSettingsAmazon;\r\n\r\npublic class Hi {\r\n    \r\n}\r\n
+===================================================================
+diff --git a/src/test/java/ChangeSettingsAmazon/Hi.java b/src/test/java/ChangeSettingsAmazon/Hi.java
+--- a/src/test/java/ChangeSettingsAmazon/Hi.java	
++++ b/src/test/java/ChangeSettingsAmazon/Hi.java	
+@@ -1,5 +1,5 @@
+ package ChangeSettingsAmazon;
+ 
+ public class Hi {
+-    
++
+ }
