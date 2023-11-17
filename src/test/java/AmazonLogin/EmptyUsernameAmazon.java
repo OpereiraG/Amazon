@@ -1,3 +1,5 @@
+package AmazonLogin;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -28,7 +30,6 @@ public class EmptyUsernameAmazon {
         UserName.sendKeys("");
         WebElement clickContinue = driver.findElement(By.xpath("( //input[@class='a-button-input'])[1]"));
         clickContinue.click();
-        //Thread.sleep(2000);
         WebElement actual = driver.findElement(By.xpath("//div[contains(text(),'Enter your email or mobile phone number')]"));
         String actualTrue = actual.getText();
         String expected = "Enter your email or mobile phone number";
