@@ -20,11 +20,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -49,22 +49,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.ChangeSettings">
-    <configuration name="ChangeSettings" type="TestNG" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="TestNG.Luma.incorrectUsername">
+    <configuration name="Luma.Login" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
@@ -73,15 +73,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ChangeSettingsAmazon" />
-      <option name="MAIN_CLASS_NAME" value="ChangeSettingsAmazon.ChangeSettings" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="ChangeSettingsAmazon.Luma" />
+      <option name="METHOD_NAME" value="Login" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChangeSettings.changeSettings" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Luma.incorrectPassword" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +91,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ChangeSettingsAmazon" />
-      <option name="MAIN_CLASS_NAME" value="ChangeSettingsAmazon.ChangeSettings" />
-      <option name="METHOD_NAME" value="changeSettings" />
+      <option name="MAIN_CLASS_NAME" value="ChangeSettingsAmazon.Luma" />
+      <option name="METHOD_NAME" value="incorrectPassword" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -99,34 +100,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmptyPasswordAmazon" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Luma.incorrectUsername" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AmazonLogin.*" />
+          <option name="PATTERN" value="ChangeSettingsAmazon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="AmazonLogin" />
-      <option name="MAIN_CLASS_NAME" value="AmazonLogin.EmptyPasswordAmazon" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmptyPasswordAmazon.EmptyPassword" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AmazonLogin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="AmazonLogin" />
-      <option name="MAIN_CLASS_NAME" value="AmazonLogin.EmptyPasswordAmazon" />
-      <option name="METHOD_NAME" value="EmptyPassword" />
+      <option name="PACKAGE_NAME" value="ChangeSettingsAmazon" />
+      <option name="MAIN_CLASS_NAME" value="ChangeSettingsAmazon.Luma" />
+      <option name="METHOD_NAME" value="incorrectUsername" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -134,17 +118,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginAmazon.successfullyLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Test1.CheckEnterKey" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AmazonLogin.*" />
+          <option name="PATTERN" value="ChangeSettingsAmazon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="AmazonLogin" />
-      <option name="MAIN_CLASS_NAME" value="AmazonLogin.LoginAmazon" />
-      <option name="METHOD_NAME" value="successfullyLogin" />
+      <option name="PACKAGE_NAME" value="ChangeSettingsAmazon" />
+      <option name="MAIN_CLASS_NAME" value="ChangeSettingsAmazon.Test1" />
+      <option name="METHOD_NAME" value="CheckEnterKey" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1.CheckTabKey" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ChangeSettingsAmazon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ChangeSettingsAmazon" />
+      <option name="MAIN_CLASS_NAME" value="ChangeSettingsAmazon.Test1" />
+      <option name="METHOD_NAME" value="CheckTabKey" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -154,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ChangeSettings" />
-        <item itemvalue="TestNG.ChangeSettings.changeSettings" />
-        <item itemvalue="TestNG.LoginAmazon.successfullyLogin" />
-        <item itemvalue="TestNG.EmptyPasswordAmazon.EmptyPassword" />
-        <item itemvalue="TestNG.EmptyPasswordAmazon" />
+        <item itemvalue="TestNG.Luma.incorrectUsername" />
+        <item itemvalue="TestNG.Luma.Login" />
+        <item itemvalue="TestNG.Luma.incorrectPassword" />
+        <item itemvalue="TestNG.Test1.CheckEnterKey" />
+        <item itemvalue="TestNG.Test1.CheckTabKey" />
       </list>
     </recent_temporary>
   </component>

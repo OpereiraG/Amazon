@@ -12,13 +12,15 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 
-public class ChangeSettings extends LoginAmazon {
+public class ChangeSettings {
     @Test
     public void changeSettings() throws InterruptedException {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.amazon.com/");
         driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("nav-link-accountList")));
         WebElement hoverSignIn = driver.findElement(By.id("nav-link-accountList"));
@@ -34,6 +36,7 @@ public class ChangeSettings extends LoginAmazon {
         WebElement password = driver.findElement(By.id("ap_password"));
         password.sendKeys("Batch1529*");
         WebElement clickLoginButton = driver.findElement(By.className("a-button-input"));
+        //Thread.sleep(2000);
         clickLoginButton.click();
         WebElement hoverAccountSettings = driver.findElement(By.id("nav-link-accountList"));
         actions.moveToElement(hoverAccountSettings).perform();
@@ -46,7 +49,7 @@ public class ChangeSettings extends LoginAmazon {
         WebElement selectDropdown = driver.findElement(By.cssSelector(".a-button-text.a-declarative"));
         selectDropdown.click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h2[contains(text(),'Japan')]")));
-        Thread.sleep(3000);
+        //Thread.sleep(3000);
         WebElement selectCountry = driver.findElement(By.xpath("//h2[contains(text(),'United States')]"));
         Select select = new Select(selectCountry);
         select.selectByVisibleText("United States");
